@@ -1,0 +1,28 @@
+{
+  "name": "storybook-autodocs-false-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "storybook dev --no-open -p 6006 -c @storybook"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "vite": "^4.4.7"
+  },
+  "devDependencies": {
+    "@storybook/addon-a11y": "^7.1.0",
+    "@storybook/addon-essentials": "^7.1.0",
+    "@storybook/addon-interactions": "^7.1.0",
+    "@storybook/addon-links": "^7.1.0",
+    "@storybook/blocks": "^7.1.0",
+    "@storybook/builder-vite": "^7.1.0",
+    "@storybook/react": "^7.1.0",
+    "@storybook/react-vite": "^7.1.0",
+    "@storybook/testing-library": "^0.2.0",
+    "storybook": "^7.1.0"
+  }
+}
